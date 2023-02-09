@@ -1,0 +1,160 @@
+
+h2{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: grey;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu-Bold", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.head-title {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 18%;
+}
+
+.testimonial-text{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 10%;
+  margin: 20px 30px;
+}
+
+#pricing{
+  margin: 100px;
+  text-align: center;
+}
+
+.card-column{
+padding: 50px 30px;
+}
+
+@media (max-width: 991px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    width: 30%;
+    position: static;
+    right: 60px;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta-text{
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.social-icon{
+  margin: 10px 7px;
+}
